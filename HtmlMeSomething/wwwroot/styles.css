@@ -1,0 +1,49 @@
+﻿body {
+    font-family: 'Verdana';
+}
+.header {
+    color: #e55600;
+    font-size: 22pt;
+    opacity: 0.2;
+}
+
+.header img{
+   float: left;
+}
+.header h1 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.mainColumn {
+    width: 60%;
+    margin:auto;
+}
+
+.headerTitle {
+    margin: auto;
+    width: 60%;
+    width: 60%;
+}
+.background {
+    background-image: url("NewFolder/kisspng-watercolour-flowers-painting-watercolor-flowers-5aaabbaa221093.9332369315211386021395.png");
+    background-position: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+.proffesionalJourney, .hobby {
+    background-color: #feffdd;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+    .hobby, .proffesionalJourney h2 {
+        color: #24857d;
+    }
+
+main {
+  
+    color: grey;
+    font-size: 12pt;
+}
