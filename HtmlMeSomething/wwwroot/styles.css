@@ -36,14 +36,25 @@
     background-color: #feffdd;
     border-radius: 25px;
     padding: 25px;
+    color: #24857d;
 }
 
-    .hobby, .proffesionalJourney h2 {
-        color: #24857d;
-    }
+.column {
+    float: left;
+    width: 31.33%;
+    padding: 5px;
+}
+.column img { width: 180px;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 main {
   
-    color: grey;
+    /*color: grey;*/
     font-size: 12pt;
 }
